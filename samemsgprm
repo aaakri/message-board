@@ -1,0 +1,15 @@
+
+[1mFrom:[0m /home/ubuntu/environment/message-board/app/controllers/messages_controller.rb:35 MessagesController#update:
+
+    [1;34m32[0m: [32mdef[0m [1;34mupdate[0m
+    [1;34m33[0m:  binding.pry
+    [1;34m34[0m:  
+ => [1;34m35[0m:  [32mif[0m @message.update(message_params)
+    [1;34m36[0m:   flash[[33m:success[0m] = [31m[1;31m"[0m[31mMessageは正常に更新されました[1;31m"[0m[31m[0m
+    [1;34m37[0m:   redirect_to @message
+    [1;34m38[0m:  [32melse[0m
+    [1;34m39[0m:   flash.now[[33m:danger[0m] = [31m[1;31m"[0m[31mMessageは更新されませんでした[1;31m"[0m[31m[0m
+    [1;34m40[0m:   render [33m:edit[0m
+    [1;34m41[0m:  [32mend[0m
+    [1;34m42[0m: [32mend[0m
+
